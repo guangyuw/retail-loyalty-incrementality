@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Project-specific: the ~640MB raw X5 cache (re-downloaded by fetch_x5) and
+# generated artifacts.
+data/
+qini_curve.png
+decile_validation.png
+
+# OS
+.DS_Store
+Thumbs.db

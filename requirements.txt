@@ -1,0 +1,18 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3          # tested on 1.9; we build the Qini plot from sklift.metrics
+                           # (not sklift.viz, which imports a symbol removed in newer sklearn)
+scikit-uplift>=0.5.1       # data loader (fetch_x5) + uplift models + metrics (qini/AUUC)
+lightgbm>=4.0              # gradient-boosted base estimator for the uplift meta-learners
+statsmodels>=0.14          # regression adjustment / variance reduction
+scipy>=1.10                # SRM chi-square test
+duckdb>=0.10               # SQL aggregation layer (features + cohort/RFM analytics)
+matplotlib>=3.7
+
+# notebook walkthrough (showcase.ipynb)
+jupyter>=1.0
+ipykernel>=6.0
+
+# optional, only if you add the X-learner / causal-ML extension:
+# econml>=0.15
+# causalml>=0.15
