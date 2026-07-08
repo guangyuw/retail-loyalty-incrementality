@@ -22,6 +22,8 @@ wheels/
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+development.ipynb
+notebooks/development.ipynb
 
 # Project-specific: the ~640MB raw X5 cache (re-downloaded by fetch_x5) and
 # generated artifacts.
